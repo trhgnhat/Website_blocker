@@ -1,0 +1,14 @@
+#Current blocked website: www.mail.live.com, https://outlook.live.com
+#Current blocked time: 8AM-4PM
+
+#SETTING UP
+1/ Open "Task Scheduler"
+2/ Choose "Task Scheduler Library" tab on the left
+3/ Choose "Create Task" on the "Action" tab on the right
+4/ In "General" tab, tick "run with highest privileges", set Configuration for <Your window version> and choose a name for this task
+5/ In "Triggers" tab, create new trigger with "begin on task" is "at startup"
+6/ In "Action" tab, create new action with "action" is "Start a program" (recommend) and then, browse the "website_blocker.pyw" file.
+7/ Setting up is done
+
+#On the middle tab of "Task Scheduler" find the task you have made.
+#Every time you want to run this application, right-click on the task, then RUN.
